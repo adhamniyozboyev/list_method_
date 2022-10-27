@@ -8,11 +8,10 @@
         list: return answer
 */
 List func(List fruits,String s){
-  String s='fruits';
   fruits.add(s); 
   return fruits;
   
 }
 void main() {
-  print(func(['apple', 'cherry','apricot']));
+  print(func(['apple', 'cherry','apricot'],'banana'));
 }

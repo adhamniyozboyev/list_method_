@@ -9,10 +9,9 @@
         list: return answer 
 */
 List func(List fruits,String x,int i){
-  fruits.indexOf(3);
- fruits.add(x);
+fruits.insert(2, x);
 return fruits ;
 }
 void main() {
-  print(func(['aplle','cherry','banana'], 'apricot', 2));
+  print(func(['aplle','cherry','banana'], 'apricot', 0));
 }

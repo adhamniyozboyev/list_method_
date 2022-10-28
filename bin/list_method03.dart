@@ -9,7 +9,8 @@
 */
 
 List func(List fruits1,List fruits2){
-  return fruits1+fruits2;
+  fruits1.addAll(fruits2);
+  return fruits1;
 }
 void main() {
   print(func(['aplle','banana'], ['cherry','orange']));

@@ -7,10 +7,9 @@
     Returns:
         list: return answer
 */
-List func(List numbers,int i){
-  numbers.removeAt(i);
-  return numbers;
+num func(List <num>a,int i){
+  return a.removeAt(i);
 }
 void main() {
-  print(func([1,2,4,7,5],2));
+  print(func([1,2,4,7,5],1));
 }

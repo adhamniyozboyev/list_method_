@@ -9,7 +9,7 @@
         list: return answer 
 */
 List func(List fruits,String x,int i){
-fruits.insert(2, x);
+fruits.insert(0,x);
 return fruits ;
 }
 void main() {

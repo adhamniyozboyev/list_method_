@@ -8,5 +8,11 @@
     Returns:
         list: return answer 
 */
-
-void main() {}
+List func(List fruits,String x,int i){
+  fruits.indexOf(3);
+ fruits.add(x);
+return fruits ;
+}
+void main() {
+  print(func(['aplle','cherry','banana'], 'apricot', 2));
+}
